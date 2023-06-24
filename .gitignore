@@ -35,3 +35,5 @@ yarn-error.log*
 next-env.d.ts
 
 password.txt
+
+pnpm-lock.yaml
