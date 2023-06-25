@@ -1,7 +1,15 @@
+import getSongs from '@/action/getSongs';
 import Header from '@/components/Header';
 import ListItem from '@/components/ListItem';
 
-export default function Home() {
+import PageContent from '@/components/PageContent';
+
+// This page will not be cached, and the data will always be up to date.
+export const revalidate = 0;
+
+export default async function Home() {
+  const songs = await getSongs();
+
   return (
     <div className="bg-neutral-900 rounded-lg h-full w-full overflow-hidden overflow-y-auto">
       <Header>
@@ -16,7 +24,7 @@ export default function Home() {
         <div className="flex justify-between items-center">
           <h1 className="text-white text-2xl font-semibold">最新热单</h1>
         </div>
-        <div>歌曲列表开发中</div>
+        <PageContent songs={songs} />
       </div>
     </div>
   );

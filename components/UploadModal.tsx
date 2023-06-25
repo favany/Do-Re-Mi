@@ -110,23 +110,23 @@ const UploadModal = () => {
       isOpen={uploadModal.isOpen}
       onChange={() => {}}
       title="上传音乐"
-      description="上传音乐"
+      description="欢迎您上传您喜欢的音乐，丰富我们的曲库！"
     >
       <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-y-4">
         <Input
           id="title"
           disabled={isLoading}
           {...register('title', { required: true })}
-          placeholder="Song Header"
+          placeholder="歌名"
         />
         <Input
           id="author"
           disabled={isLoading}
           {...register('author', { required: true })}
-          placeholder="Song author"
+          placeholder="歌手"
         />
         <div>
-          <div className="pb-1">Select a song file</div>
+          <div className="pb-1">请选择歌曲文件：</div>
           <Input
             id="song"
             type="file"
@@ -135,7 +135,7 @@ const UploadModal = () => {
           />
         </div>
         <div>
-          <div className="pb-1">Select a image</div>
+          <div className="pb-1">请选择歌曲封面：</div>
           <Input
             id="image"
             type="file"

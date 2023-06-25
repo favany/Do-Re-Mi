@@ -34,14 +34,15 @@ export default function AuthModal() {
 
   return (
     <Modal
-      title="welcome back"
-      description="Login to your account"
+      title="欢迎回来👏"
+      description="登陆(faaa@live.com/123456)"
       isOpen={isOpen}
       onChange={onChange}
     >
       <Auth
         theme="dark"
-        providers={['google', 'github', 'apple', 'notion', 'spotify']}
+        providers={[]}
+        // providers={['google', 'github', 'apple', 'notion', 'spotify']}
         magicLink
         supabaseClient={SupabaseClient}
         appearance={{
