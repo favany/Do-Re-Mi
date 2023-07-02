@@ -2,9 +2,9 @@
 
 An awesome Web Music Player, inspired from Spotify and Apple Music.
 
-Author: 刘俊 toot @AwesomeFrontEnd , assisted by Github Copilot.
+Author: 刘俊 Arorio @Arorio , assisted by Github Copilot.
 URL: <https://meg.gy> or <https://meggy.vercel.app>
-Git Repo: <https://github.com/AwesomeFrontEnd/meggy>
+Git Repo: <https://github.com/leovenus/meggy>
 
 
 一个非常棒的在线音乐播放器，灵感来源于Spotify和苹果音乐。
@@ -14,8 +14,7 @@ Git Repo: <https://github.com/AwesomeFrontEnd/meggy>
 
 ### Notes
 
-Currently: Environment Setup <https://youtu.be/2aeMRB8LL4o?t=1654>
-
+Currently: Environment Setup <https://youtu.be/2aeMRB8LL4o?t=17241>
 
 
 
