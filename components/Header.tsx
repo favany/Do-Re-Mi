@@ -75,8 +75,17 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
         <div className="flex justify-between items-center gap-x-4">
           {user ? (
             <div className="flex gap-x-4 items-center">
+                            <a href="http://github.com/Arorio/meggy" target="_blank" rel="noopener noreferrer">
+                <div>
+                  <Button
+                    className="bg-transparent text-neutral-300 font-medium"
+                  >
+                    源码
+                  </Button>
+                </div>
+              </a>
               <Button onClick={handleLogout} className="bg-white px-6 py-2">
-                Logout
+                登出
               </Button>
               <Button
                 onClick={() => router.push('/account')}
@@ -87,6 +96,16 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
             </div>
           ) : (
             <>
+              <a href="http://github.com/Arorio/meggy" target="_blank" rel="noopener noreferrer">
+                <div>
+                  <Button
+                    className="bg-transparent text-neutral-300 font-medium"
+                  >
+                    源码
+                  </Button>
+                </div>
+              </a>
+
               <div>
                 <Button
                   onClick={authModal.onOpen}

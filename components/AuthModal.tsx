@@ -35,7 +35,7 @@ export default function AuthModal() {
   return (
     <Modal
       title="欢迎回来👏"
-      description="登陆(faaa@live.com/123456)"
+      description="登陆(用户名faaa@live.com/密码123456)"
       isOpen={isOpen}
       onChange={onChange}
     >
