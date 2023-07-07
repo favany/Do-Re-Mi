@@ -110,7 +110,7 @@ const UploadModal = () => {
       isOpen={uploadModal.isOpen}
       onChange={() => {}}
       title="上传音乐"
-      description="欢迎您上传您喜欢的音乐，丰富我们的曲库！"
+      description="欢迎您上传您喜欢的音乐，丰富我们的曲库！（歌曲名和文件名请用英文）"
     >
       <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-y-4">
         <Input

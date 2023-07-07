@@ -78,14 +78,14 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
                             <a href="http://github.com/Arorio/meggy" target="_blank" rel="noopener noreferrer">
                 <div>
                   <Button
-                    className="bg-transparent text-neutral-300 font-medium"
+                    className="bg-transparent text-neutral-300 font-medium w-20"
                   >
                     源码
                   </Button>
                 </div>
               </a>
-              <Button onClick={handleLogout} className="bg-white px-6 py-2">
-                登出
+              <Button onClick={handleLogout} className="bg-white px-6 py-2 w-15">
+                退
               </Button>
               <Button
                 onClick={() => router.push('/account')}
