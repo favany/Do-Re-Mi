@@ -13,7 +13,7 @@ import getSongsByUserId from '@/action/getSongsByUserId';
 const font = Figtree({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Meggy: An awesome Web Music Player',
+  title: '浪漫音乐：聆听世间美好',
   description: 'inspired from Spotify and Apple Music',
 };
 
